@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<HTML lang="en">
+    <HEAD>
+        <META http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <META charset="utf-8">
+        <TITLE>Bookshelf</TITLE>
+        <META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <LINK href="lib/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+          <SCRIPT src="//html5shim.googlecode.com/svn/trunk/html5.js"></SCRIPT>
+        <![endif]-->
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <LINK rel="stylesheet" type="text/css" href="css/style.css">
+        <SCRIPT type='text/javascript' src="js/data.js"></SCRIPT>
+        <SCRIPT type='text/javascript' src="js/book_loader.js"></SCRIPT>
+    </HEAD>
+    <BODY>
+
+
+    <DIV class="container">
+      <BR/> <BR/>
+
+      <DIV class="row">
+        <DIV class="col-md-7 header">
+        Vinoth Durairaj's Personal Readings
+        </DIV>
+        <DIV class="col-md-3">
+          <FORM>
+            <!--<INPUT type="text" placeholder="Search" class="form-control"/> -->
+          </FORM>
+        </DIV>
+        <DIV class="col-md-2" style="display: none;">
+          <FORM>
+            <SELECT class="form-control" id="genre" onChange="loadBooks()">
+                <OPTION value="All">All</OPTION>
+                <OPTION value="Read">Read</OPTION>
+                <OPTION value="Reading">Currently Reading</OPTION>
+                <OPTION value="Toread">Like To Read</OPTION>
+                <OPTION value="Goal">2023 Reading Goal</OPTION>
+                <OPTION value="PersonalGoal">Personal Goal</OPTION>
+            </SELECT>
+          </FORM>
+        </DIV>
+      </DIV><!-- End: row -->
+
+      <DIV class="row" id="bookData">
+
+        <!-- THIS WILL GET POPULATED DYNAMICALLY -->
+
+      </DIV> <!-- End: row -->
+
+    </DIV> <!-- End: container -->
+    <BR/> <BR/>
+
+    <SCRIPT type='text/javascript' src="lib/jquery/2.0.2/jquery.min.js"></SCRIPT>
+    <SCRIPT type='text/javascript' src="lib/bootstrap/3.2.0/js/bootstrap.min.js"></SCRIPT>
+
+    <SCRIPT>
+    loadBooks();
+    </SCRIPT>
+
+    </BODY>
+</HTML>
