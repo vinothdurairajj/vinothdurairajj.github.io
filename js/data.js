@@ -1,4 +1,4 @@
-var NUM_BOOKS = 45;
+var NUM_BOOKS = 49;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
