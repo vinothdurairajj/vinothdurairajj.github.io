@@ -1,66 +1,588 @@
-
 <!DOCTYPE html>
-<HTML lang="en">
-    <HEAD>
-        <META http-equiv="content-type" content="text/html; charset=UTF-8"> 
-        <META charset="utf-8">
-        <META http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-        <TITLE>VinothDurairaj</TITLE>
-        <LINK rel="shortcut icon" type="image/png" href="images/vinlogo.PNG"/>
-        <META name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-        <LINK href="lib/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
-        <!--[if lt IE 9]>
-          <SCRIPT src="//html5shim.googlecode.com/svn/trunk/html5.js"></SCRIPT>
-        <![endif]-->
-        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-        <LINK rel="stylesheet" type="text/css" href="css/style.css">
-        <SCRIPT type='text/javascript' src="js/data.js"></SCRIPT>
-        <SCRIPT type='text/javascript' src="js/book_loader.js"></SCRIPT>
-    </HEAD>
-    <BODY>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <link href="../../favicon.ico" rel="icon">
+
+    <title>ClearCareer</title><!-- Bootstrap core CSS -->
+    <link crossorigin="anonymous" href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    integrity=
+    "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    rel="stylesheet"><!-- FontAwesome Icon Font -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    rel="stylesheet"><!-- LinearIcons Icon Font -->
+    <link href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css" rel=
+    "stylesheet"><!-- Main Stylesheet -->
+    <link href="css/style.css" rel="stylesheet"><!-- Timeline CSS -->
+    <link href="css/timeline.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- INTRO SECTION -->
 
 
-    <DIV class="container">
-      <BR/> <BR/>
+    <section class="section-image">
+        <div class="img-overlay"></div>
+            <div class="intro">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5>Hello</h5>
 
-      <DIV class="row">
-        <DIV class="col-md-7 header">
-        Vinoth Durairaj's Personal Readings
-        </DIV>
-        <DIV class="col-md-3">
-          <FORM>
-            <!--<INPUT type="text" placeholder="Search" class="form-control"/> -->
-          </FORM>
-        </DIV>
-        <DIV class="col-md-2" style="display: none;">
-          <FORM>
-            <SELECT class="form-control" id="genre" onChange="loadBooks()">
-                <OPTION value="All">All</OPTION>
-                <OPTION value="Read">Read</OPTION>
-                <OPTION value="Reading">Currently Reading</OPTION>
-                <OPTION value="Toread">Like To Read</OPTION>
-                <OPTION value="Goal">2023 Reading Goal</OPTION>
-                <OPTION value="PersonalGoal">Personal Goal</OPTION>
-            </SELECT>
-          </FORM>
-        </DIV>
-      </DIV><!-- End: row -->
 
-      <DIV class="row" id="bookData">
+                        <h1>I'm Vinoth Durairaj</h1>
 
-        <!-- THIS WILL GET POPULATED DYNAMICALLY -->
 
-      </DIV> <!-- End: row -->
+                        <p class="intro-desc"><span>Career-Oriented</span>
+                        <span class="colour-splash">•</span>
+                        <span>Future-Focused</span> <span class=
+                        "colour-splash">•</span> <span>Thrive Catalyst</span></p>
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
 
-    </DIV> <!-- End: container -->
-    <BR/> <BR/>
 
-    <SCRIPT type='text/javascript' src="lib/jquery/2.0.2/jquery.min.js"></SCRIPT>
-    <SCRIPT type='text/javascript' src="lib/bootstrap/3.2.0/js/bootstrap.min.js"></SCRIPT>
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="social">
+                            <a href="https://twitter.com/Vinothdj"
+                            target="_blank"><i class=
+                            "fa fa-twitter fa-3x"></i></a> 
+                             <a href="https://www.linkedin.com/in/vinothdurairaj-ln/"
+                            target="_blank"><i class=
+                            "fa fa-linkedin fa-3x"></i></a> </a>
+                            <a href="https://www.youtube.com/@Learninone"
+                            target="_blank"><i class=
+                            "fa fa-youtube fa-3x"></i></a> <a href=
+                            "https://github.com/Vino-git" target=
+                            "_blank"><i class="fa fa-github fa-3x"></i></a>
+                        </div><!-- /social -->
+                    </div><!-- /col-md-8 -->
+                </div><!-- /row -->
+                
 
-    <SCRIPT>
-    loadBooks();
-    </SCRIPT>
 
-    </BODY>
-</HTML>
+                <div class="bottom">
+                    <a href="#about">
+                    <div class="mouse-icon">
+                        <div class="scroll">
+                        </div>
+                    </div></a>
+                </div>
+            </div><!-- /intro -->
+    </section>
+    
+    
+    <!-- ABOUT SECTION -->
+    <section class="section-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <img class="profilepic" src="images/me.jpg">
+
+                    <h2>About Me</h2>
+
+                    <hr>
+
+
+                    <p class="lead">
+                        Hi there! I'm Vinoth Durairaj, 
+
+                        highly motivated and experienced <span> Site Reliability Engineer </span> with a passion for maintaining reliable production operations that drive business results. 
+                        <br><br>I love collaborating with cross-functional teams to identify and solve complex challenges, and  Passionate about learning, trading, and mentoring <span>help others to grow.</span>
+                        <br><br>As a futuristic individual, I embrace the power of emerging technologies to continually enhance my abilities to stay at the forefront of innovation and leverage them for <span>personal and professional growth.</span>
+                    </p>
+                </div><!-- /col-md-6 -->
+            </div><!-- / row -->
+        </div><!-- /container -->
+    </section>
+    <!-- SKILLS SECTION -->
+
+
+    <section class="section-image" id="skills">
+        <div class="img-overlay"></div>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Skills</h2>
+                    <hr>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-user"></span>
+
+                    <h2><u>SRE</u></h2>
+
+
+                    <p style="font-size: 1.5em;">
+                        🛡️ Secure Infrastructure Management <br><br>
+                        📈 Performance Optimization <br><br>
+                        💰 Payment processing knowledge<br><br>
+                        🏗️ Production infrastructure management<br><br>
+                        🔧 Configuration management<br><br>
+                        👀 Monitoring & alerting systems <br>(Datadog, OpenSearch)<br><br>
+                        🚪 Automation (Python)<br><br>
+                        🔒 Security (iRules, PCI compliance)<br><br>
+                        🤝 Team leadership & frameworks<br><br>
+                        📊 OKRs & KPIs (HR policy alignment) </p>
+                </div>
+
+
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-star"></span>
+
+                    <h2><u>Curious Creations</u></h2>
+
+
+                    <p style="font-size: 1.5em;"> <br>
+                        🔍 Blockchain research for privacy-focused apps.<br><br>
+                        🏠 Securing digital footprint with personal infra.<br><br>
+                        🤖 Communicating with AI via language models.<br><br>
+                        📦 Alexa skill-building<br><br>
+                        🔧 IoT explore on Raspberry Pi.  
+                    </p>
+                </div>
+
+
+                <div class="col-md-4 text-center">
+                    <span class="lnr lnr-diamond"></span>
+
+                    <h2><u>Technical Wizardry</u></h2>
+
+
+                    <p style="font-size: 1.5em;"> <br>
+                        💰 Essential Personal Finance Skills. <br><br>
+                        📊 Market Analysis and Research Expertise.<br><br>
+                        🕰️ Focused and Concentrated Trading Mindset.<br><br>
+                        😌 Emotionally Intelligent Trading Strategies.<br><br>
+                        📝 Accurate Record-Keeping for Consistent Growth.<br><br>
+                        📈 Lightning-Fast Data Analysis Techniques.<br><br>
+                        📊 Mastery of Key Technical Indicators.<br><br>
+                        🎯 Proven Track Record of Successful Trades with self designed Strategies.
+                        
+                    </p>
+                </div>
+            </div> <!-- / row -->
+        </div><!-- /container -->
+    </section>
+    <!-- TIMELINE SECTION -->
+
+    <section class="section-primary" id="achievement">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>Some of my most significant accomplishments include</h2>
+                    <hr class="white">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Timeline -->
+
+
+                    <div id="timeline">
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>Operational Excellence</h2>
+
+
+                                <p style="font-size: 1.2em;">
+                                    Led the development and operations processes within the squad team, comprising eight members and in-house resources. My strategic approach involved optimizing technical solutions to meet 100% Service Level Agreements (SLAs) and streamlining vendor management costs. Additionally, I directed the seamless transition of production support from our previous vendor to an in-house team, ensuring minimal downtime and maximum efficiency.
+                                    To further enhance the productivity of our project team, I introduced robust development environments, refined programming skills, defined technical standards, provided comprehensive training, and offered expert advice and troubleshooting support. Under my supervision, the application support team grew to over 20 members, and we maintained long-term operational support with excellence.                                    
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>Migration Expert</h2>
+
+
+                                <p style="font-size: 1.2em;">Spearheaded the migration of large bank prepaid card operations from outdated designs to modernized platforms, successfully executing multiple data center migrations and streamlining project support across various tiers to enhance customer satisfaction.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>Automation Specialist</h2>
+
+
+                                <p style="font-size: 1.2em;">Developed and deployed an automation system, significantly reducing manual intervention and resource allocation, while improving overall efficiency and productivity.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-plane"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>Production Architect</h2>
+
+
+                                <p style="font-size: 1.2em;">Contributed to the design of the production architecture, leveraging advanced technologies to maximize the throughput of underlying applications and ensure seamless performance.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-group"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2>Innovation Catalyst</h2>
+
+
+                                <p style="font-size: 1.2em;">Collaborated with an innovation team to conceptualize and develop novel ideas utilizing blockchain technology, aimed at simplifying Know Your Customer (KYC) processes and enhancing client onboarding experiences.</p>
+                            </div>
+
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2>From Tinkerer to Tech Visionary</h2>
+
+
+                                <p style="font-size: 1.2em;">Harnessed the power of open source projects to create customized solutions that cater to family needs. Through my tinkering and experimentation, successfully established a comprehensive digital ecosystem for my family. Our centralized family drive is built with Nextcloud, our precious memories are preserved with Photoprism, and we indulge in an exquisitely curated video library with Plex. secured our virtual network with WireGuard and integrated MotionEye for robust home security surveillance. These accomplishments demonstrate my resourcefulness and determination to push the boundaries of what's possible with open source technology.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-group"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <a href="https://in.tradingview.com/u/stocktechbot/#published-scripts"><h2><u>Technical Wizardry</u></h2>
+
+                                <p style="font-size: 1.2em;">Developed highly effective technical indicators using PineScript on TradingView, a popular trading social platform. These indicators have gained significant traction and are now widely used by many Forex and Crypto traders as a valuable tool for making informed investment decisions. The widespread adoption and positive feedback from the community serve as testaments to my dedication and expertise in creating practical, high-quality tools for the trading community.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-book"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <a href="https://amzn.to/3OuSbkj"><h2><u>Self-Published DevOps Expert</u></h2></a>
+
+                                <p style="font-size: 1.2em;">Authored and self-published a book on DevOps, which provides a comprehensive overview of the subject matter and helps readers understand the differences between Waterfall and Agile models. This achievement showcases my expertise in the field and my ability to communicate complex concepts in a clear and engaging manner.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <a href="https://amzn.to/3YsppoS"><h2><u>Seasonal Developer</u></h2></a>
+
+                                <p style="font-size: 1.2em;">Developed and implemented Amazon Alexa skills that effectively engaged children in their daily learning activities through voice interaction, fostering an immersive and interactive educational experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <a href="https://www.listengod.org/"><h2><u>ListenGod</u></h2></a>
+
+                                <p style="font-size: 1.2em;">Developed 'ListenGod,' a groundbreaking meditation voice platform for Christians worldwide. Leveraged Python, TTS, and SSML integration to create a personalized listening experience in multiple languages. Seamless integration with world popular podcasting platforms. Showcasing my expertise in delivering innovative tech solutions that meet real-world needs.</p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+                <!-- /row -->
+            </div>
+        </div> <!-- / container -->
+    </section>
+    <!-- FOOTER SECTION -->
+
+
+    <section class="section-primary" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 section-heading">
+                    <h2>My Experiences</h2>
+                    <hr class="white">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Timeline -->
+
+
+                    <div id="timeline">
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <img src="https://media.licdn.com/dms/image/C4D0BAQFfjchlDmIx8A/company-logo_200_200/0/1649150086732?e=1699488000&v=beta&t=b7xf_a1TPWb_nLRsJFRyYthi4VyOC3fkDv3fRIJ53NU" alt="PagoNxt">
+                                <!-- <i class="fa fa-star"></i> -->
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2><b>PagoNxt Merchant Solutions - Getnet</b>  <i>Mar-2015 -> Till Date</i></h2>
+
+
+                                <p style="font-size: 1.2em;">
+                                    ✔️Oversee more than 200 deployments with a serious incident rate of less than 2%.<br>
+                                    ✔️Achieved 99.8% application availability by designing iRule on F5 that ensures seamless failover.<br>
+                                    ✔️Prepare and execute the Mock Disaster Recovery on the yearly basis to mitigate the potential failure in production site.<br>
+                                    ✔️Build the robust automation system to automate back-end process and reduce the manual effort by 90%.<br>
+                                    ✔️Migrate 40% of application stacks to a cloud-native environment.<br>
+                                    ✔️Maintained fully automated CI/CD pipelines for code deployment using Jenkins and Ansible<br>
+                                    ✔️Conducting annual mock disaster recovery exercises, monthly SLA reports, daily ticket status updates, bi-weekly access control reviews, hourly transaction statistics, and quarterly application security assessments to maintain compliance with relevant industry standards like ISAE and PCI.                            
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <img src="https://media.licdn.com/dms/image/C560BAQEP8_eM4zW8bw/company-logo_200_200/0/1626865473807?e=1699488000&v=beta&t=XIittkmE64EehKuo7XPYs0vxYdJdSR4OtnZxGwQBWMY" alt="Visa">
+                                <!-- <i class="fa fa-cog"></i> -->
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2><b>Visa Inc</b><br> <i>Mar-2012 -> Mar-2015</i></h2>
+
+
+                                <p style="font-size: 1.2em;">
+                                    ✔️Execute the data center migration by migrating 50+ applications from old data center to new data center.<br>
+                                    ✔️Implement the monthly release calendar and maintain the release calendars for the fixes that goes into the production system.<br>
+                                    ✔️Oversee the production operation, direct the team on issues analysis, and fix.<br>
+                                    ✔️Developing and implementing a new team onboarding program, cutting training times by half.<br>
+                                    ✔️Enhanced the productivity of the project team by 80% through targeted training, mentorship, and best practices sharing.
+                                    ✔️Built and managed a high-performing squad team, reducing vendor management costs by 50%.
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <img src="https://media.licdn.com/dms/image/D4D0BAQE2qmDzBAeU0g/company-logo_200_200/0/1688355225212?e=1699488000&v=beta&t=VZz5tU5ByDxiqx3En7FV2x0mftHncqprl8B0BNLz3vU" alt="Hexaware">
+                                <!-- <i class="fa fa-plane"></i> -->
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content right">
+                                <h2><b>Hexaware Technologies</b><br> <i>Apr-2011 –> Mar-2012</i></h2>
+
+
+                                <p style="font-size: 1.2em;">
+                                    ✔️Design dynamic data validation system and maintain the data integrity.<br>
+                                    ✔️Monitor the Risk in the data and mitigate the data inconsistency.<br>
+                                    ✔️Transition analyst, responsibility to take the transition from existing vendor to in-house.
+                                    
+                                </p>
+                            </div>
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+
+
+                        <div class="timeline-item">
+                            <!--Icon inside the circle-->
+
+
+                            <div class="timeline-icon">
+                                <img src="https://media.licdn.com/dms/image/C560BAQHEp2RJt2QnRw/company-logo_200_200/0/1645630327395?e=1699488000&v=beta&t=CvJEAETZ-9S0h9jhO-M02SyoyYBpL15I7dHl5PBlzsQ" alt="Yalamanchili">
+                                <!-- <i class="fa fa-group"></i> -->
+                            </div>
+                            <!-- Content from timeline box and position (right or left)-->
+
+
+                            <div class="timeline-content left">
+                                <h2><b>Yalamanchili Software Pvt Ltd</b><br> <i>Sep-2007 –> Mar-2011</i></h2>
+
+
+                                <p style="font-size: 1.2em;">
+                                    ✔️Provide 24X7 support and automate the critical end of day, settlement, and reconciliation process.<br>
+                                    ✔️Maintain the scheduled activity and create the SLA & Escalation process for each critical operation process.<br>
+                                    ✔️Monitor the banking authorization system and maintain the system high availability.                                    
+                                </p>
+                            </div>
+
+                        </div>
+                        <!-- /Timeline Item-->
+                        <!-- Timeline Item, copy from here to create various boxes -->
+                        <!-- /Timeline Item-->
+                    </div>
+                    <!-- /col-md-12 -->
+                </div>
+                <!-- /row -->
+            </div>
+        </div> <!-- / container -->
+    </section>
+
+    <section class="full-screen-video" style="background-image: url('https://vinothdurairajj.github.io/background.mp4');">
+
+    </section> 
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Thank you for taking the time to learn more about me.</p>
+                </div>
+
+
+                <div class="col-md-4 text-center">
+                    <p>With <i class="fa fa-heart"></i> Vinoth Durairaj</p>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="social-footer">
+                        <a href="https://twitter.com/Vinothdj" target=
+                        "_blank"><i class="fa fa-twitter"></i></a> <a href=
+                        "https://www.linkedin.com/in/vinothdurairaj-ln/" target=
+                        "_blank"><i class="fa fa-linkedin"></i></a>  <a href=
+                        "https://www.youtube.com/@Learninone" target=
+                        "_blank"><i class="fa fa-youtube"></i></a> <a href=
+                        "https://github.com/Vino-git" target=
+                        "_blank"><i class="fa fa-github"></i></a>
+                    </div> <!-- /social footer -->
+                </div> <!-- /col-md-4 -->
+            </div><!-- /row -->
+        </div><!-- /container -->
+    </footer>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script> 
+    <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script> 
+    <script src="js/bootstrap.min.js">
+    </script> 
+    <script src="js/scripts.js">
+    </script>
+</body>
+</html>
