@@ -177,7 +177,7 @@ def generate_from_widget():
     from bs4 import BeautifulSoup
 
     # Open the HTML file and create a BeautifulSoup object
-    with open('tools\widget.html', encoding="utf-8") as f:
+    with open('widget.html', encoding="utf-8") as f:
         soup = BeautifulSoup(f, 'html.parser')
 
     # Find all the book containers
@@ -230,7 +230,8 @@ if '__main__' == __name__:
     print(BOOK)
     resize_book_images(BOOK)
     js_data = generate_js(BOOK)
+    print(js_data)
     fd = open('js/data.js', 'w', encoding="utf-8")
     fd.write(js_data)
     fd.close()
-    print (generate_html(BOOK))
+    #print (generate_html(BOOK))

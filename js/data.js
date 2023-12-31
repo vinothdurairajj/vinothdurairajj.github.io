@@ -293,5 +293,35 @@ var BOOKS = {
     "image": "images\\40102.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/40102.Blink"
+  },
+"48": {
+    "title": "Invent and Wander: The Collected Writings of Jeff Bezos",
+    "image": "images/54505323.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/54505323-invent-and-wander"
+  },
+"49": {
+    "title": "A Guide to the Good Life: The Ancient Art of Stoic Joy",
+    "image": "images/5617966.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/5617966-a-guide-to-the-good-life"
+  },
+"50": {
+    "title": "The Four Agreements",
+    "image": "images/6596.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/6596.The_Four_Agreements"
+  },
+"51": {
+    "title": "Big Mistakes: The Best Investors and Their Worst Investments (Bloomberg)",
+    "image": "images/35307858.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/35307858-big-mistakes"
+  },
+"52": {
+    "title": "Mans Search for Meaning",
+    "image": "images/4069.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
   }
 }
