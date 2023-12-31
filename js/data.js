@@ -323,5 +323,5 @@ var BOOKS = {
     "image": "images\\4069.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
-  }
+  },
 }
