@@ -1,4 +1,4 @@
-var NUM_BOOKS = 53;
+var NUM_BOOKS = 52;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
@@ -313,7 +313,7 @@ var BOOKS = {
     "review": "https://www.goodreads.com/book/show/6596.The_Four_Agreements"
   },
 "51": {
-    "title": "Big Mistakes: The Best Investors and Their Worst Investments (Bloomberg)",
+    "title": "Big Mistakes: The Best Investors and Their Worst Investments",
     "image": "images\\35307858.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/35307858-big-mistakes"
