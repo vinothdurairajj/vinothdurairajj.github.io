@@ -1,4 +1,4 @@
-var NUM_BOOKS = 54;
+var NUM_BOOKS = 55;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
@@ -323,5 +323,11 @@ var BOOKS = {
     "image": "images\\4069.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
+  },
+"55": {
+    "title": "Nikola Tesla: Imagination and the Man That Invented the 20th Century",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366561721i/17835351.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/17835351-nikola-tesla"
   },
 }
