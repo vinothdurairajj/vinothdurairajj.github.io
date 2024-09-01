@@ -1,4 +1,4 @@
-var NUM_BOOKS = 55;
+var NUM_BOOKS = 56;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
@@ -329,5 +329,11 @@ var BOOKS = {
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366561721i/17835351.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/17835351-nikola-tesla"
+  },
+"56": {
+    "title": "Many Lives, Many Masters",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689843511i/193569795.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/193569795-many-lives-many-masters"
   },
 }
