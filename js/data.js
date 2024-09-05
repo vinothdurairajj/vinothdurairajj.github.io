@@ -1,4 +1,4 @@
-var NUM_BOOKS = 56;
+var NUM_BOOKS = 57;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
@@ -335,5 +335,11 @@ var BOOKS = {
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689843511i/193569795.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/193569795-many-lives-many-masters"
+  },
+"57": {
+    "title": "The 16 Undeniable Laws of Communication: Apply Them and Make the Most of Your Message",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677786523i/63362043.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/63362043-the-16-undeniable-laws-of-communication"
   },
 }
