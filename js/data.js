@@ -1,4 +1,4 @@
-var NUM_BOOKS = 57;
+var NUM_BOOKS = 59;
 var BOOKS = {
 "1": {
     "title": "John C. Maxwells Leadership Series",
@@ -341,5 +341,11 @@ var BOOKS = {
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677786523i/63362043.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/63362043-the-16-undeniable-laws-of-communication"
+  },
+  "58": {
+    "title": "Power vs. Force: The Hidden Determinants of Human Behavior",
+    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462222491i/19795.jpg",
+    "genre": "PersonalGoal,Read",
+    "review": "https://www.goodreads.com/book/show/19795.Power_vs_Forc"
   },
 }
