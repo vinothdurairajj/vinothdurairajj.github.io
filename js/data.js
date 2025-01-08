@@ -347,5 +347,5 @@ var BOOKS = {
     "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462222491i/19795.jpg",
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/19795.Power_vs_Forc"
-  },
+  }
 }
