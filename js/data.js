@@ -324,28 +324,4 @@ var BOOKS = {
     "genre": "PersonalGoal,Read",
     "review": "https://www.goodreads.com/book/show/4069.Man_s_Search_for_Meaning"
   },
-"55": {
-    "title": "Nikola Tesla: Imagination and the Man That Invented the 20th Century",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1366561721i/17835351.jpg",
-    "genre": "PersonalGoal,Read",
-    "review": "https://www.goodreads.com/book/show/17835351-nikola-tesla"
-  },
-"56": {
-    "title": "Many Lives, Many Masters",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1689843511i/193569795.jpg",
-    "genre": "PersonalGoal,Read",
-    "review": "https://www.goodreads.com/book/show/193569795-many-lives-many-masters"
-  },
-"57": {
-    "title": "The 16 Undeniable Laws of Communication: Apply Them and Make the Most of Your Message",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1677786523i/63362043.jpg",
-    "genre": "PersonalGoal,Read",
-    "review": "https://www.goodreads.com/book/show/63362043-the-16-undeniable-laws-of-communication"
-  },
-  "58": {
-    "title": "Power vs. Force: The Hidden Determinants of Human Behavior",
-    "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1462222491i/19795.jpg",
-    "genre": "PersonalGoal,Read",
-    "review": "https://www.goodreads.com/book/show/19795.Power_vs_Forc"
-  },
 }
